@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+#app {
+    width: fit-content;
+    margin: auto;
+    padding-top: 52px;
+}
+
+header {
+    margin-bottom: 34px;
+}
+
+h1 {
+    color: #D6C47B;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+h2 span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.games {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 525px;
+    height: 40px;
+}
+
+.games p {
+    margin: 40px;
+}
+
+#containerGames {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
