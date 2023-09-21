@@ -19,6 +19,7 @@ body {
 
 header {
     margin-bottom: 34px;
+    text-align: center;
 }
 
 h1 {
@@ -37,16 +38,16 @@ h2 {
     font-weight: 600;
     color: #FFFFFF;
 }
-.games {
+.match {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 525px;
     height: 40px;
-    background: linear-gradient(to right, #FFFFFF 30%, #D6C47B 40%);
+    background: linear-gradient(to right, #FFFFFF 30%, #D6C47B 45%);
 }
 
-.games p {
+.match p {
     margin: 40px;
     text-transform: uppercase;
     font-size: 20px;
@@ -56,5 +57,10 @@ h2 {
 #containerGames {
     display: flex;
     flex-direction: column;
-    gap: 38px;
+    gap: 17px;
+    align-items: center;
+}
+
+img {
+    padding-left: 18px;
 }
