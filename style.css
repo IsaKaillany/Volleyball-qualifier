@@ -13,9 +13,8 @@ body {
 }
 
 #app {
-    width: fit-content;
-    margin: auto;
-    padding: 50px;
+    width: 100%;
+    padding: 20px;
 }
 
 header {
@@ -62,7 +61,7 @@ h2 {
     align-items: center;
 }
 
-img {
+.game img {
     padding-left: 18px;
 }
 
@@ -70,3 +69,29 @@ img {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    header img {
+        width: 200px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    h2 span {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .game {
+        /* width: fit-content; */
+        transform: scale(0.85);
+        /* max-width: 500px; */
+    }
+
+    .game:hover {
+        transform: scale(0.89);
+        cursor: pointer;
+    }
+}
+
