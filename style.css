@@ -123,14 +123,11 @@ h2 {
     }
 
     .game {
-        /* width: fit-content; */
         transform: scale(0.65);
-        /* max-width: 500px; */
     }
 
     .game:hover {
         transform: scale(0.69);
-        cursor: pointer;
     }
 
     #containerGames {
@@ -138,3 +135,36 @@ h2 {
     }
 }
 
+@media (max-width: 300px) {
+    header {
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 span {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .game {
+        transform: scale(0.54);
+    }
+
+    .game:hover {
+        transform: scale(0.56);
+    }
+
+    #containerGames {
+        gap: 0;
+    }
+}
